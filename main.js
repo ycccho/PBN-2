@@ -12,17 +12,21 @@ const app = {
                 <p>수강생들이 장시간 머물며 학습과 실습을 병행하는 공간인 만큼, 시각적 안정감과 쾌적한 환경 조성에 중점을 두어 성공적으로 완성된 현장입니다.</p>
                 <hr style="border: 0; border-top: 1px solid #eee; margin: 20px 0;">
                 <p><a href="https://indecompany.imweb.me/A00/?idx=169678198&bmode=view" target="_blank" style="color: #dd5828; font-weight: bold; text-decoration: none;">👉 부산학원인테리어 본문 보러가기</a></p>
+                <p style="font-size: 12px; color: #888; margin-top: 10px;">출처: 인디컴퍼니 홈페이지</p>
             `
         },
         {
             id: 2,
-            title: "연제구 연산동 영어학원 인테리어 - 세련된 카페형 로비 디자인",
-            image: "",
-            description: "연산동 영어학원의 개방감 있는 로비와 모던한 강의실 인테리어입니다.",
+            title: "부산 범천동 KH정보교육원 IT·컴퓨터학원 인테리어 - 140평 트렌디한 교육 공간",
+            image: "https://cdn.imweb.me/upload/S20230327c0ff5f00bb0c3/3847ea5974c52.jpg",
+            description: "부산 범천동 140평 규모의 IT 컴퓨터학원 인테리어. 2030 세대를 겨냥한 블루 포인트와 모던한 감각의 시공 사례.",
             content: `
-                <p><span style="font-size: 20px; color: #dd5828;"><b>모던하고 감각적인</b></span> 연산동 영어학원 인테리어 사례입니다. 학생들과 학부모님이 편안하게 대기할 수 있는 카페형 로비 공간을 조성했습니다.</p>
-                <p>통유리창을 활용하여 개방감을 주었으며, 각 강의실은 최신 학습 트렌드에 맞춘 스마트 기기 활용이 용이하도록 전기 공사를 꼼꼼히 진행했습니다.</p>
-                <p><a href="https://blog.naver.com/dudu8882" target="_blank"><b>영어학원 시공 후기 블로그 확인</b></a></p>
+                <p><b>부산 범천동</b>에 위치한 140평 규모의 <b>KH정보교육원 IT·컴퓨터학원</b> 인테리어 현장입니다. 이번 프로젝트는 IT 분야의 역동적인 이미지를 살리기 위해 일반적인 학원 스타일에서 벗어나 젊고 트렌디한 감각으로 설계되었습니다.</p>
+                <p>학원의 브랜드 컬러인 블루와 심리적 안정감을 주는 라이트 그레이를 메인 컬러로 사용하여 공간의 통일성을 주었습니다. 2층 라운지는 빈티지한 롱브릭 타일과 제작 소파를 배치하여 높은 층고를 살린 세련된 분위기를 연출했으며, 12층 메인 라운지는 2030 수강생들의 취향에 맞춘 감각적인 공간으로 완성되었습니다.</p>
+                <p>단순한 교육 장소를 넘어 브랜드의 가치를 전달할 수 있는 공간 설계로, 수강생들에게 최상의 학습 환경을 제공하는 부산 학원 인테리어의 모범적인 사례입니다.</p>
+                <hr style="border: 0; border-top: 1px solid #eee; margin: 20px 0;">
+                <p><a href="https://indecompany.imweb.me/A00/?idx=126681688&bmode=view" target="_blank" style="color: #dd5828; font-weight: bold; text-decoration: none;">👉 부산학원인테리어 본문 보러가기</a></p>
+                <p style="font-size: 12px; color: #888; margin-top: 10px;">출처: 인디컴퍼니 홈페이지</p>
             `
         },
         {
