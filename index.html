@@ -1,14 +1,104 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="ko">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello World</title>
-  <link href='/style.css' rel='stylesheet'>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>부산 인테리어 | 병원·학원·사무실·상가 전문 인디컴퍼니</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <button onclick="console.log('hello');">Press me</button>
-  <script defer type="text/javascript" src="/main.js"></script>
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header-container">
+      <div class="logo">
+        <a href="#intro">
+          <img src="https://cdn.imweb.me/upload/S20230327c0ff5f00bb0c3/6044a8103ee7f.png" alt="인디컴퍼니 로고">
+        </a>
+      </div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#intro">INTRO</a></li>
+          <li><a href="#rankings">RANKINGS</a></li>
+          <li><a href="#portfolio">OUR WORKS</a></li>
+          <li><a href="#privacy" id="privacy-link">개인정보처리방침</a></li>
+        </ul>
+      </nav>
+      <div class="mobile-menu-btn" id="mobile-menu-btn">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section (Intro) -->
+  <section id="intro" class="hero" style="background-image: url('https://cdn.imweb.me/thumbnail/20260301/1f63b4f21c14b.png');">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <h1>부산 인테리어 리모델링</h1>
+      <p>병원·학원·사무실·상가 디자인 전문 업체 인디컴퍼니</p>
+      <div class="hero-actions">
+        <button class="btn btn-primary">상담 문의하기</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rankings Section -->
+  <section id="rankings" class="section">
+    <div class="container">
+      <h2 class="section-title">인기 조회수 순위</h2>
+      <div class="ranking-list" id="ranking-list">
+        <!-- Rankings injected via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="section bg-light">
+    <div class="container">
+      <h2 class="section-title">포트폴리오 (OUR WORKS)</h2>
+      <div class="category-filter">
+        <button class="filter-btn active">전체</button>
+        <button class="filter-btn">교육</button>
+        <button class="filter-btn">사무</button>
+        <button class="filter-btn">의료</button>
+      </div>
+      <div class="portfolio-grid" id="portfolio-grid">
+        <!-- Portfolio items injected via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Privacy Policy Modal -->
+  <div id="privacy-modal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>개인정보처리방침</h2>
+        <span class="close-btn" id="close-modal">&times;</span>
+      </div>
+      <div class="modal-body">
+        <p>인디컴퍼니(이하 '회사'라 한다)는 개인정보 보호법 제30조에 따라 정보주체의 개인정보를 보호하고 이와 관련한 고충을 신속하고 원활하게 처리할 수 있도록 하기 위하여 다음과 같이 개인정보 처리지침을 수립·공개합니다.</p>
+        
+        <h3>제1조(개인정보의 처리목적)</h3>
+        <p>회사는 다음의 목적을 위하여 개인정보를 처리합니다. 처리하고 있는 개인정보는 다음의 목적 이외의 용도로는 이용되지 않으며, 이용 목적이 변경되는 경우에는 개인정보 보호법 제18조에 따라 별도의 동의를 받는 등 필요한 조치를 이행할 예정입니다.</p>
+        <ol>
+          <li>홈페이지 회원 가입 및 관리</li>
+          <li>재화 또는 서비스 제공 (상담, 견적, 시공 서비스 등)</li>
+          <li>마케팅 및 광고에의 활용</li>
+        </ol>
+
+        <h3>제2조(처리하는 개인정보 항목)</h3>
+        <p>회사는 다음의 개인정보 항목을 처리하고 있습니다.</p>
+        <ul>
+          <li>필수항목: 성명, 연락처(전화번호, 휴대전화번호), 이메일</li>
+          <li>선택항목: 주소, 소속(회사명)</li>
+        </ul>
+
+        <h3>제3조(개인정보의 처리 및 보유기간)</h3>
+        <p>회사는 법령에 따른 개인정보 보유·이용기간 또는 정보주체로부터 개인정보를 수집 시에 동의받은 개인정보 보유·이용기간 내에서 개인정보를 처리·보유합니다.</p>
+        <p>- 고객 문의 및 상담: 상담 완료 후 1년 보관 후 파기</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
 </body>
 </html>
